@@ -1,0 +1,153 @@
+/* General Styles */
+.cart-top {
+    background-color: lightgrey;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-img {
+    height: 100px;
+    width: 150px;
+}
+
+.cart-table {
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 7rem;
+}
+
+.cart-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.cart-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+    font-weight: 900;
+    margin-right: 35rem;
+}
+
+.table-design {
+    border: solid brown;
+    background-color: beige;
+}
+
+.payment {
+    margin-left: 5rem;
+    background-color: beige;
+    border: solid brown;
+}
+
+.upi img {
+    height: 80px;
+    width: 80px;
+    border-radius: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile View (up to 600px) */
+@media screen and (max-width: 600px) {
+    .cart-top {
+        height: 4rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cart-title {
+        font-size: 1.2rem;
+        margin-right: 0;
+    }
+
+    .cart-table {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-button {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .payment {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .upi img {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/* Tablet View (601px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .cart-top {
+        height: 4.5rem;
+    }
+
+    .cart-title {
+        font-size: 1.5rem;
+        margin-right: 20rem;
+    }
+
+    .cart-table {
+        margin-left: 4rem;
+    }
+
+    .cart-button {
+        margin-right: 2rem;
+    }
+
+    .payment {
+        margin-left: 2rem;
+    }
+
+    .upi img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+/* Large Screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+    .cart-top {
+        height: 5rem;
+    }
+
+    .cart-title {
+        font-size: 1.8rem;
+        margin-right: 35rem;
+    }
+
+    .cart-table {
+        margin-left: 7rem;
+    }
+
+    .cart-button {
+        margin-right: 1rem;
+    }
+
+    .payment {
+        margin-left: 5rem;
+    }
+
+    .upi img {
+        height: 80px;
+        width: 80px;
+    }
+}

@@ -1,1 +1,1 @@
-# EventPlanner
+# EVENT_PLANNER

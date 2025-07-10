@@ -1,0 +1,256 @@
+/* General Styles */
+.main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.venue-top {
+    background-color: lightgray;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.venue-font {
+    margin-top: 0;
+    margin-left: 1rem;
+    color: aqua;
+}
+
+.venue-top button {
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.venue-title {
+    background-color: hotpink;
+    color: red;
+    font-size: larger;
+    font-weight: 900;
+    border-radius: 1rem;
+    width: 100px;
+    height: 1198px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.venue-content- {
+    width: 400px;
+    background-color: yellow;
+}
+
+.venue-content-img {
+    height: 250px;
+    width: 350px;
+    margin-top: 2rem;
+    margin-bottom: 2.20rem;
+    border-radius: 1rem;
+}
+
+.venue-items {
+    display: flex;
+    background-color: #FAE8E0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+}
+
+.card {
+    margin-right: 3rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    background-color: #D8A7B1;
+}
+
+.card-text {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.venue-card {
+    margin-top: -45px;
+    justify-content: center;
+}
+
+.card-button {
+    margin-left: 5.5rem;
+}
+
+.card-body button {
+    margin-top: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile View (up to 600px) */
+@media screen and (max-width: 600px) {
+    .main {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .venue-top {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .venue-top button {
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .venue-title {
+        width: 100%;
+        height: auto;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .venue-content- {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .venue-content-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .venue-items {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    .card-body button {
+        margin-top: 1rem;
+    }
+
+    .venue-card {
+        margin-top: -30px;
+        justify-content: center;
+    }
+}
+
+/* Tablet View (601px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .main {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .venue-top {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5rem;
+    }
+
+    .venue-top button {
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .venue-title {
+        width: 150px;
+        height: auto;
+    }
+
+    .venue-content- {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .venue-items {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 3rem;
+        width: 45%;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    .card-body button {
+        margin-top: 1rem;
+    }
+}
+
+/* Large Screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+    .main {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .venue-top {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5rem;
+    }
+
+    .venue-title {
+        width: 200px;
+        height: 1198px;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    .venue-content- {
+        width: 400px;
+    }
+
+    .venue-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card {
+        margin-right: 3rem;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        background-color: #D8A7B1;
+        width: 25%;
+    }
+
+    .card-text {
+        font-size: larger;
+    }
+
+    .card-body button {
+        margin-top: 1rem;
+    }
+}
